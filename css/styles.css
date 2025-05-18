@@ -34,6 +34,9 @@ span {
 .header-menu-link:hover{
   color:#404bbf
 }
+.header-menu-link:focus{
+  color: #404bbf;
+}
 .header-address-link {
   font-weight: 400;
   font-size: 16px;
@@ -65,6 +68,9 @@ span {
   cursor: pointer;}
 
 .hero-btn:hover{
+  background-color: #404BBF;
+}
+.hero-btn:focus{
   background-color: #404BBF;
 }
 .features-subtitle {
@@ -107,6 +113,9 @@ span {
   text-align: center;
   color: #434455;
 }
+.team-item-list{
+  background-color: #FFF;
+}
 .portfolio-project {
   font-weight: 500;
   font-size: 20px;
@@ -135,6 +144,7 @@ span {
 
 .footer-logo-name {
   color: #f4f4fd;
+  line-height: 1.17;
 }
 .footer-information {
   font-size: 16px;
