@@ -31,6 +31,9 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-menu-link:hover{
+  color:#404bbf
+}
 .header-address-link {
   font-weight: 400;
   font-size: 16px;
@@ -59,7 +62,10 @@ span {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
+  cursor: pointer;}
+
+.hero-btn:hover{
+  background-color: #404BBF;
 }
 .features-subtitle {
   font-weight: 500;
@@ -72,15 +78,19 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-h2 {
+  color: #434455;}
+
+.section-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team{
+  background-color: #F4F4FD;
 }
 .team-name {
   font-weight: 500;
@@ -109,6 +119,9 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-item-list{
+  background-color: #FFFFFF;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
