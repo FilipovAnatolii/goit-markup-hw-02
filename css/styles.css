@@ -21,6 +21,9 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.header-logo:focus{
+  color: #404bbf;
+}
 span {
   color: #2e2f42;
 }
